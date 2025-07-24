@@ -1,2 +1,9 @@
-# pinwin
-Pin a window to the top
+# Pinwin
+
+pin a windows to the top
+
+## Installation
+```
+xmake build
+xmake install
+```
