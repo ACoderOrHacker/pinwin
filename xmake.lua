@@ -1,4 +1,5 @@
 set_xmakever("2.8.7")
+set_version("0.1.0")
 
 set_description("Pin a window to the top")
 
@@ -21,7 +22,7 @@ target("pinwin")
     add_files("src/**.d")
 target_end()
 
-xpack("shit")
+xpack("pinwin")
     set_description("Pin a window to the top")
     set_author("ACoderOrHacker")
     set_license("MIT")
@@ -30,7 +31,7 @@ xpack("shit")
 
     set_formats("zip", "targz", "nsis")
 
-    set_basename("shit-$(version)-$(plat)-$(arch)")
+    set_basename("pinwin-$(version)-$(plat)-$(arch)")
 
     add_installfiles("LICENSE")
     add_installfiles("README.md")
@@ -39,4 +40,5 @@ xpack("shit")
     add_sourcefiles(".github/(**.yml)")
 
     add_targets("pinwin")
+    add_targets("resources")
 xpack_end()
