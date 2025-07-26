@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: Tiny
-    details: tiny, lightweight, no dependencies
+    details: Tiny, lightweight, no dependencies
   - title: Powerful
     details: Do it well!
   - title: Easy
